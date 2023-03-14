@@ -1,205 +1,204 @@
 ---
-title: How to Contribute
-linkTitle: "Contribute"
+title: Wie Sie partizipieren können
+linkTitle: "partizipieren"
 toc_hide: true
 menu:
   main:
     weight: 30
-description: Welcome! We are glad that you want to contribute to the Cartografos Working Group.
+description: Herzlich willkommen! Wir freuen uns, dass Sie in der Arbeitsgruppe Cartografos mitarbeiten möchten.
 ---
 
-## Introduction
+## Einführung
 
-The Cartografos working group aims to provide tools to help adopters and end-users to navigate the CNCF landscape and the wider cloud native ecosystem.
+Die Cartografos-Arbeitsgruppe hat sich zum Ziel gesetzt, Tools zur Verfügung zu stellen, die Adoptern und Endnutzern helfen, sich in der CNCF-Landcape und dem breiteren Cloud-Native-Ökosystem zurechtzufinden.
 
-We want to educate and inform users with effective and practical guidance to help them understand the cloud native ecosystem. We do this by collaborating with groups inside and outside the CNCF.
+Wir möchten Benutzer mit effektiven und praktischen Anleitungen unterstützen und aufklären, um ihnen zu helfen, das Cloud-Native-Ökosystem zu verstehen. Wir tun dies durch die Zusammenarbeit mit Gruppen innerhalb und außerhalb der CNCF.
 
-We work to engage with CNCF projects at sandbox, incubating, and graduated level to ensure effective and accurate representation within assets, as well as CNCF Technical Advisory Groups. We also provide a vendor neutral forum for validation, discussion and feedback.
-As you get started, you are in the best position to give us feedback on areas where the working group needs help. This includes:
+Wir arbeiten mit CNCF-Projekten auf Sandbox-, Incubating- und Graduated-Ebene zusammen, um eine effektive und akkurate Repräsentation innerhalb der Assets sowie der CNCF Technical Advisory Groups sicherzustellen. Außerdem bieten wir auch ein anbieterneutrales Forum für Validierung, Diskussion und Feedback.
+In der Anfangsphase sind Sie in der besten Position, um uns Feedback zu Bereichen zu geben, in denen die Arbeitsgruppe Hilfe benötigt. Dazu gehören:
 
-- Gaps in our documentation
-- Working to define new artifacts
-- Engaging with TAGs and SIGs within the CNCF and its projects
+- Lücken in unserer Dokumentation zu schließen
+- Definition neuer Artefakte
+- Einbindung in TAGs und SIGs innerhalb der CNCF und ihrer Projekte
 
-## Contributing
+## Beitragen
 
-Everyone is invited to suggest changes, additions and improvements to the working group’s artifacts.  We employ a community-driven process governed by the CNCF to develop and improve artifacts.  Contributions are welcome from all participants in compliance with the working group’s purpose and charter.  Anyone who wishes to make a contribution can submit a GitHub issue or create a pull request.
-As well as contributing to artifacts and documentation, we very much welcome your help in the following ways:
+Jeder ist eingeladen, Änderungen, Ergänzungen und Verbesserungen an den Artefakten der Arbeitsgruppe vorzuschlagen.  Wir verwenden einen von der CNCF gesteuerten Prozess zur Entwicklung und Verbesserung von Artefakten.  Beiträge sind von allen Teilnehmern in Übereinstimmung mit dem Zweck und der Charta der Arbeitsgruppe willkommen.  Jeder, der einen Beitrag leisten möchte, kann ein GitHub Issue einreichen oder einen Pull Request erstellen.
+Neben Beiträgen zu Artefakten und Dokumentation ist Ihre Hilfe auf folgende Weise sehr willkommen:
 
-- Creating or contributing artifacts to the working group that help with the group’s mission of helping to navigate the the cloud native landscape
-- Contributing updates to existing artifacts
-- Ideas for new artifacts and improvements you’d like to see
-- Documentation
-- Issue Triage
-- Communications / Social Media / Blog Posts
-- Release management
+- Erstellen oder Beitragen von Artefakten zur Arbeitsgruppe, die die Aufgabe der Gruppe unterstützen, bei der Navigation in der Cloud Native Landscape zu helfen
+- Beitragen von Aktualisierungen zu bestehenden Artefakten
+- Ideen für neue Artefakte und Verbesserungen, die Sie gerne sehen würden
+- Dokumentation
+- Problem-Sichtung
+- Kommunikation / Soziale Medien / Blogbeiträge
+- Release Management
 
-Not everything happens through a GitHub pull request. Please come to our meetings or contact us and discuss how we can work together.
+Nicht alles geschieht über eine Pull-Request auf GitHub. Bitte kommen Sie zu unseren Treffen oder kontaktieren Sie uns und besprechen Sie, wie wir zusammenarbeiten können.
 
-## Come to Meetings
+## Komm zu den Treffen
 
-Everyone is welcome to come to any of our meetings. We hold regular community meetings every second Tuesday at 6PM US/Eastern time
+Jeder ist herzlich eingeladen, an unseren Treffen teilzunehmen. Wir halten jeden zweiten Dienstag um 18.00 Uhr US/Eastern regelmäßige Community-Treffen ab.
 
-You will need to join the Cartografos Working Group community on <https://community.cncf.io> then simply RSVP within the meeting instance at <https://community.cncf.io/cncf-cartografos-working-group/>
+Sie müssen der Cartografos-Arbeitsgruppe unter <https://community.cncf.io> beitreten und sich dann einfach für die Sitzung unter <https://community.cncf.io/cncf-cartografos-working-group/> anmelden.
 
-The first time you come, introducing yourself is more than enough. Over time, we hope that you feel comfortable voicing your opinions, giving feedback on others’ ideas, and even sharing your own ideas, and experiences.
+Wenn Sie das erste Mal kommen, reicht es aus, wenn Sie sich vorstellen. Wir hoffen, dass Sie sich mit der Zeit wohl dabei fühlen, Ihre Meinung zu äußern, Feedback zu den Ideen anderer zu geben und sogar Ihre eigenen Ideen und Erfahrungen mitzuteilen.
 
-## Ask for Help
+## Bitte um Hilfe
 
-The best way to reach us with a question when contributing is:
+Am besten erreichen Sie uns:
 
-- On the original GitHub issue
-- In GitHub Discussions within the repository
-- Our CNCF Slack channel - # cartografos-wg
-- And of course, in person at a meeting
+- Über die ursprüngliche GitHub-Frage
+- In GitHub-Diskussionen innerhalb des Repositorys
+- Unser CNCF Slack-Kanal - # cartografos-wg
+- Und natürlich persönlich bei einem Treffen
 
 ## Contribution Flow
 
-Outline of what a contributor's workflow looks like:
+Ein Überblick über den Arbeitsablauf eines Mitwirkenden:
 
 - Fork it (<https://github.com/cncf/cartografos/fork>)
-- Create a branch from where you want to base your work (usually main). Example git checkout -b my-new-feature)
-- Make your changes and arrange them in readable commits.
-- Commit your changes (Ex. `git commit -am 'Add some feature'``)
-- Push to the branch (Ex. git push origin my-new-feature)
-- Make sure branch is up to date with upstream base branch (eg. main)
-- Create a new Pull Request (PR)
+- Erstellen Sie einen Branch, von dem aus Sie Ihre Arbeit beginnen wollen (normalerweise main). Beispiel git checkout -b my-new-feature)
+- Nehmen Sie Ihre Änderungen vor und ordnen Sie diese in lesbaren Commits an.
+- Übertragen Sie Ihre Änderungen (Bsp. `git commit -am 'Füge ein Feature hinzu'``)
+- Schieben Sie sie in den Branch (Bsp. git push origin my-new-feature)
+- Stellen Sie sicher, dass der Branch mit dem Basis-Branch des Upstream auf dem neuesten Stand ist (z.B. main)
+- Erstellen Sie einen neuen Pull Request (PR)
 
-## Submitting a PR
+## Einreichen eines PR
 
-Once you have updated your changes in your branch, you will open a PR to the upstream cartografos repo.
-Before opening the PR ensure you have rebased on the latest upstream.
-If other commits are pushed upstream before your PR is merged, you will also need to rebase again before it will be merged.
-For general advice on how to submit a pull request, please see [Creating a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) on GitHub.
+Sobald Sie Ihre Änderungen in Ihrem Branch aktualisiert haben, öffnen Sie einen PR für das Upstream-Repo von cartografos.
+Bevor Sie den PR öffnen, vergewissern Sie sich, dass Sie auf dem neuesten Stand des Upstreams rebased haben.
+Wenn vor der Zusammenführung Ihres PR andere Commits in den Upstream gepusht werden, müssen Sie ebenfalls einen Re-Base durchführen, bevor der PR zusammengeführt wird.
+Allgemeine Hinweise zum Einreichen eines Pull-Requests finden Sie unter [Creating a pull request] (https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) auf GitHub.
 
 ## Contributor Ladder
 
-This contributor ladder outlines the different contributor roles within the working group, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the working group grows. Our working group members are happy to help you advance along the contributor ladder.
+Die Contributor Ladder beschreibt die verschiedenen Rollen der Mitwirkenden innerhalb der Arbeitsgruppe sowie die damit verbundenen Verantwortlichkeiten und Privilegien. Community-Mitglieder beginnen in der Regel auf den ersten Stufen der "Leiter" und steigen mit wachsendem Engagement in der Arbeitsgruppe auf. Die Mitglieder unserer Arbeitsgruppe helfen Ihnen gerne dabei, auf der Leiter der Mitwirkenden aufzusteigen.
 
 ### Participant
 
-A Working Group Participant engages with the group and its community, contributing their time, thoughts, etc. Community participants are usually users who have stopped being anonymous and started being active in group discussions.
+Ein Participant engagiert sich für die Gruppe und ihre Gemeinschaft, indem er seine Zeit, seine Gedanken usw. einbringt. Community-Teilnehmer sind in der Regel Benutzer, die nicht mehr anonym sind, sondern sich aktiv an Gruppendiskussionen beteiligen.
 
-Responsibilities:
+Verantwortlichkeiten:
 
-- Must follow the CNCF Code of Code of Conduct
+- Muss den Verhaltenskodex der CNCF befolgen
 
-How users can get involved with the community:
+Wie Benutzer sich in der Gemeinschaft engagieren können:
 
-- Participating in community discussions
-- Helping other users
-- Submitting and commenting on issues
-- Providing feedback on new artefact releases
-- Attending community events
+- Teilnahme an Gemeinschaftsdiskussionen
+- Hilfe für andere Benutzer bereitstellen
+- Einreichung und Kommentierung von Issues
+- Feedback zu neuen Artefakt-Releases geben
+- Teilnahme an Community-Veranstaltungen
 
 ### Contributor
 
-A Working Group Contributor contributes directly to the group and adds value to it. People at the Contributor level may be new contributors, or they may only contribute occasionally.
+Ein Contributor einer Arbeitsgruppe trägt direkt zur Gruppe bei und schafft einen Mehrwert für diese. Personen auf der Stufe "Contributor" können neue Mitarbeiter sein oder nur gelegentlich Beiträge leisten.
 
-Responsibilities include:
+Zu den Verantwortlichkeiten gehören:
 
-- Follow the CNCF Code of Code of Conduct
-- Follow the working group contributing guide
-- Requirements (one or several of the below):
-- Report and sometimes resolve issues
-- Occasionally submit PRs
-- Contributes to artifacts
-- Show up at meetings
-- Answer questions from other community members
-- Submit feedback on issues and PRs
-- Reviews artifact updates and provides feedback
-- Runs or helps run events
-- Promote the working group in public
-- Helps run the working group infrastructure
+- Einhalten des Verhaltenskodex der CNCF
+- Einhalten des Leitfadens für Beiträge der Arbeitsgruppe
+- Anforderungen (eine oder mehrere der unten genannten):
+- Berichten und manchmal Lösen von Problemen
+- Gelegentliches Einreichen von PRs
+- Beitragen zu Artefakten
+- An Sitzungen teilnehmen
+- Beantwortung von Fragen anderer Community-Mitglieder
+- Feedback zu Problemen und PRs einreichen
+- Überprüft Aktualisierungen von Artefakten und gibt Feedback
+- Führt Veranstaltungen durch oder hilft bei der Durchführung
+- Werbung für die Arbeitsgruppe in der Öffentlichkeit
+- Unterstützung bei der Verwaltung der Infrastruktur der Arbeitsgruppe
 
 ### Reviewer
 
-A Reviewer has responsibility for specific assets, documentation, or other working group areas. They are collectively responsible, with other Reviewers, for reviewing all changes to those areas and indicating whether those changes are ready to merge. They have a track record of contribution and review in the working group.
+Ein Reviewer hat die Verantwortung für bestimmte Assets, Dokumentationen oder andere Arbeitsgruppenbereiche. Sie sind gemeinsam mit anderen Reviewern für die Überprüfung aller Änderungen in diesen Bereichen verantwortlich und geben an, ob diese Änderungen für einen Merge bereit sind. Sie haben eine Erfolgsbilanz von Beiträgen und Überprüfungen in der Arbeitsgruppe.
 
-Reviewers are responsible for a "specific area." This can be a specific artifact, chapter of documentation, or other clearly-defined group artifact that is smaller than an entire repository. Most often it is one or a set of directories in one or more Git repositories. The "specific area" below refers to this area of responsibility.
+Reviewer sind für einen "spezifischen Bereich" verantwortlich. Das kann ein bestimmtes Artefakt, ein Kapitel der Dokumentation oder ein anderes klar definiertes Gruppenartefakt sein, das kleiner ist als ein ganzes Repository. Meistens handelt es sich um ein oder mehrere Verzeichnisse in einem oder mehreren Git-Repositories. Der unten stehende "spezifische Bereich" bezieht sich auf diesen Verantwortungsbereich.
 
-Reviewers have all the rights and responsibilities of a Contributor, plus:
+Prüfer haben alle Rechte und Pflichten eines Mitwirkenden und darüber hinaus:
 
-- Responsibilities include:
-- Following the reviewing guide
-- Reviewing most Pull Requests against their specific areas of responsibility
-- Helping other contributors become reviewers
+- Zu den Verantwortlichkeiten gehören:
+- Einhalten des Reviewing-Leitfadens
+- Überprüfung der meisten Pull Requests anhand ihrer spezifischen Verantwortungsbereiche
+- Andere Contributoren dabei unterstützen, Reviewer zu werden
 
-Requirements:
+Voraussetzungen:
 
-- Experience as a Contributor
-- Is a working group member
-- Has demonstrated in-depth knowledge of their specific area, ideally having authored or significantly contributed to the artifact in their specific area.
-- Commits to being responsible for that specific area
-- Is supportive of new and occasional contributors and helps get useful PRs in shape to commit
+- Erfahrung als Contributor
+- Ist ein Arbeitsgruppenmitglied
+- Hat tiefgreifende Kenntnisse in seinem spezifischen Bereich bewiesen. Idealerweise hat er das Artefakt in seinem spezifischen Bereich verfasst oder wesentlich dazu beigetragen.
+- Verpflichtet sich, für diesen speziellen Bereich verantwortlich zu sein
+- Unterstützt neue und gelegentliche Mitwirkende und hilft dabei, nützliche PRs in Form zu bringen.
 
-Additional privileges:
+Zusätzliche Privilegien:
 
-- Be an approver for pull requests in specific directories
-- Can recommend and review other contributors to become Reviewers
-The process of becoming a Reviewer is:
+- Freigabe von Pull Requests in bestimmten Verzeichnissen
+- Kann andere Mitwirkende empfehlen und prüfen, Reviewer zu werden
+Der Prozess, ein Reviewer zu werden, ist folgender:
 
-- The contributor is nominated by opening a PR against the appropriate repository, which adds their GitHub username to the OWNERS file for one or more directories.
-- At least two members of the team that owns that repository or main directory, who are already Approvers, approve the PR.
+- Der Mitwirkende wird nominiert, indem er einen PR gegen das entsprechende Repository eröffnet, wodurch sein GitHub-Benutzername der OWNERS-Datei für ein oder mehrere Verzeichnisse hinzugefügt wird.
+- Mindestens zwei Mitglieder des Teams, dem das Repository oder das Hauptverzeichnis gehört, die bereits Approver sind, genehmigen den PR.
 
 ### Maintainer
 
-Maintainers are very established contributors who are responsible for the entire working group. As such, they have the ability to approve PRs against any area of the repository, and are expected to participate in making decisions about the strategy and priorities of the working group.
+Maintainer sind sehr erfahrene Mitwirkende, die für die gesamte Arbeitsgruppe verantwortlich sind. Als solche haben sie die Möglichkeit, PRs für jeden Bereich des Repositorys zu genehmigen, und es wird von ihnen erwartet, dass sie sich an Entscheidungen über die Strategie und die Prioritäten der Arbeitsgruppe beteiligen.
 
-A Maintainer must meet the responsibilities and requirements of a Reviewer, plus:
-Responsibilities include:
+Ein Maintainer muss die Aufgaben und Anforderungen eines Reviewers erfüllen, plus:
+Zu den Verantwortlichkeiten gehören:
 
-- Mentoring new Reviewers
-- Writing refactoring PRs
-- Participating in CNCF maintainer activities
-- Determining strategy and policy for the working group
-- Participating in, and leading, community meetings
+- Mentoring neuer Reviewer
+- Schreiben von Refactoring-PRs
+- Teilnahme an den Aktivitäten der CNCF Maintainer
+- Strategie und Politik für die Arbeitsgruppe festlegen
+- Teilnahme an und Leitung von Community-Treffen
 
-Requirements
+Voraussetzungen
 
-- Demonstrates a broad knowledge of the working group across multiple areas
-- Is able to exercise judgement for the good of the working group, independent of their employer, friends, or team
-- Mentors other contributors
-- Can commit to spending time working on the working group
+- Demonstration eines umfangreichen Wissens über die Arbeitsgruppe in mehreren Bereichen
+- Ist in der Lage, unabhängig von seinem Arbeitgeber, seinen Freunden oder seinem Team ein Urteil zum Wohle der Arbeitsgruppe zu fällen
+- Mentor für andere Mitwirkende
+- Kann sich verpflichten, Zeit für die Arbeit in der Arbeitsgruppe aufzuwenden
 
-Additional privileges:
+Zusätzliche Privilegien:
 
-- Approve PRs to any area of the working group
-- Represent the working group in public as a Maintainer
-- Communicate with the CNCF on behalf of the working group
-- Have a vote in Maintainer decision-making meetings
+- Genehmigung von PRs für jeden Bereich der Arbeitsgruppe
+- Repräsentation der Arbeitsgruppe in der Öffentlichkeit als Maintainer
+- Kommunikation mit der CNCF im Namen der Arbeitsgruppe
+- Stimmrecht bei Maintainer-Entscheidungstreffen
 
-Process of becoming a maintainer:
+Verfahren, um Maintainer zu werden:
 
-- Any current Maintainer may nominate a current Reviewer to become a new Maintainer, by opening a PR against the root of the cncf/cartografos repository, adding the nominee as an Approver in the OWNERS file.
-- The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
-- A majority of the current Maintainers must then approve the PR.
+- Jeder aktuelle Maintainer kann einen aktuellen Reviewer nominieren, neuer Maintainer zu werden, indem er einen PR gegen das Stammverzeichnis des cncf/cartografos-Repository eröffnet und den Nominierten als Approver in der OWNERS-Datei hinzufügt.
+- Der Kandidat fügt dem PR einen Kommentar hinzu, in dem er bestätigt, dass er mit allen Anforderungen an einen Maintainer einverstanden ist.
+- Eine Mehrheit der derzeitigen Maintainer muss dann den PR genehmigen.
 
-## Contributing to the Website
+## Beitragen zur Website
 
-We use [Hugo](https://gohugo.io/) to format and generate the Maturity Model website, the
-[Docsy](https://github.com/google/docsy) theme for styling and site structure,
-and [Netlify](https://www.netlify.com/) to manage the deployment of the site.
-Hugo is an open-source static site generator that provides us with templates,
-content organisation in a standard directory structure, and a website generation
-engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps
-them up into a website.
+Wir verwenden [Hugo](https://gohugo.io/) zum Formatieren und Generieren der Maturity Model Website, das
+[Docsy](https://github.com/google/docsy) für das Styling und die Struktur der Website,
+und [Netlify](https://www.netlify.com/), um die Bereitstellung der Website zu verwalten.
+Hugo ist ein Open-Source-Generator für statische Websites, der uns mit Vorlagen versorgt,
+Vorlagen, die Organisation von Inhalten in einer Standardverzeichnisstruktur und eine Website-Generierungs
+Maschine. Sie schreiben die Seiten in Markdown (oder HTML, wenn Sie wollen), und Hugo erstellt daraus eine Website.
 
-All submissions, including submissions by project members, require review. We
-use GitHub pull requests for this purpose. Consult
-[GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
-information on using pull requests.
+Alle Beiträge, einschließlich der Beiträge von Projektmitgliedern, müssen geprüft werden. Wir
+verwenden dafür GitHub Pull Requests. Siehe
+[GitHub-Hilfe](https://help.github.com/articles/about-pull-requests/) für weitere
+Informationen zur Verwendung von Pull-Requests.
 
-### Setting up a local instance
+### Einrichten einer lokalen Instanz
 
-Install a local copy of the Cloud Native Maturity Model site with these instructions. Note you must have [npm](https://www.npmjs.com/) and [Hugo](https://gohugo.io/) installed.
+Installieren Sie eine lokale Kopie der Cloud Native Maturity Model-Site mit diesen Anweisungen. Beachten Sie, dass Sie [npm](https://www.npmjs.com/) und [Hugo](https://gohugo.io/) installiert haben müssen.
 
 ```
 git clone https://github.com/cncf/cartografos.git
 cd cartografos
 git submodule update --init --recursive
 cd website
-npm install
+npm installieren
 ```
 
-You can then run the site using `hugo server`.
+Anschließend können Sie die Website mit `hugo server` ausführen.
