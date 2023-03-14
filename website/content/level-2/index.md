@@ -1,122 +1,123 @@
 ---
-title: Level 2 - Operate
-description: The cloud native foundation is established and you are moving to production.
+title: Level 2 - Betrieb
+description: Die Cloud Native Foundation ist etabliert und Sie gehen in die Produktion über.
 ---
 
 ## <i class="fas fa-users"></i> People 
 
-### People Overview
+### Personen Überblick
 
-Individuals are actively invested in training and skills. The outcome is that small pockets of SMEs and expertise are appearing. DevOps has started to appear with inclusion of cloud skill engineers and developer groups offering platform skills. Cloud Native efforts are also owned by members of leadership.
+Jeder Einzelne investiert aktiv in Ausbildung und Qualifikation. Dies hat dazu geführt, dass kleine Gruppen von KMU und Fachleuten entstanden sind. DevOps hat mit der Einbeziehung von Ingenieuren mit Cloud-Kenntnissen und Entwicklergruppen begonnen, die Plattformkenntnisse anbieten. Auch die Bemühungen um Cloud Native werden von Mitgliedern der Führungsebene getragen.
 
-### Organizational Change
+### Organisatorischer Wandel
 
-Organizational change is happening. You will define project teams, create agile project groups and have quick feedback/testing loops.
+Organisatorische Veränderungen finden statt. Sie werden Projektteams definieren, agile Projektgruppen bilden und schnelle Feedback-/Testschleifen einrichten.
 
-### Teams and Decentralization
+### Teams und Dezentralisierung
 
-We are starting to formalize central services and responsibilities, including the consolidation of tooling, as well as the culling or evaporation of non-cloud native tooling.
+Wir beginnen mit der Formalisierung zentraler Dienste und Zuständigkeiten, einschließlich der Konsolidierung von Werkzeugen sowie der Aussonderung oder Verdrängung von nicht cloudbasierten Werkzeugen.
 
-### Security
+### Sicherheit
 
-Your team needs to focus on who is responsible for Kubernetes cluster security and how it will be managed. That will require the inclusion of the security team.
+Ihr Team muss sich darauf konzentrieren, wer für die Sicherheit des Kubernetes-Clusters verantwortlich ist und wie sie verwaltet werden soll. Dazu muss das Sicherheitsteam einbezogen werden.
 
-### Developer Agility
+### Agilität der Entwickler
 
-The team is comfortable with technically challenging problems and how cloud native can help. There is an organizational commitment to decentralisation and automated testing of builds, with automated deployments to some environments.
+Das Team ist mit technisch anspruchsvollen Problemen vertraut und weiß, wie Cloud Native helfen kann. Es gibt eine organisatorische Verpflichtung zur Dezentralisierung und zum automatisierten Testen von Builds, mit automatischer Bereitstellung in einigen Umgebungen.
 
-### Upskilling Developers
+### Fortbildung von Entwicklern
 
-Your wider development team is able to operate the fundamentals of Kubernetes including:
-- Connecting an operator to the Kubernetes API
-- Become comfortable with Kubectl commands
-- Understanding how to list and view resources
-- Performing basic actions (mechanical actions with limited understanding of how it works)
+Ihr breiteres Entwicklungsteam ist in der Lage, die Grundlagen von Kubernetes zu bedienen, einschließlich:
+- Verbinden eines Benutzers mit der Kubernetes-API
+- Sich mit Kubectl-Befehlen vertraut machen
+- Verstehen, wie man Ressourcen auflistet und anzeigt
+- Ausführen grundlegender Aktionen (mechanische Aktionen mit begrenztem Verständnis der Funktionsweise)
 
-### CNCF Certifications
+### CNCF-Zertifizierungen
 
-Organizations may wish to consider the CKA and CKAD exams around level 2 and 3.
+Organisationen sollten die CKA- und CKAD-Prüfungen für die Stufen 2 und 3 in Betracht ziehen.
 
 #### Certified Kubernetes Administrator (CKA)
 
-This program provides assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators.
+Dieses Programm gewährleistet, dass CKAs die Fähigkeiten, das Wissen und die Kompetenz besitzen, um die Aufgaben eines Kubernetes-Administrators zu erfüllen.
 
 #### Certified Kubernetes Application Developer (CKAD)
 
-This exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.
+Diese Prüfung bescheinigt, dass Benutzer Cloud-native Anwendungen für Kubernetes entwerfen, erstellen, konfigurieren und bereitstellen können.
 
 ## <i class="fas fa-cogs"></i> Process
 
-### Process Overview
+### Prozess-Übersicht
 
-You’ll focus on production promotion of basic applications. This includes being well established with Git and CI. You are also instituting structured build and deployment processes that exhibit the qualities of a cloud and container native CI/CD system.
+Sie werden sich auf die Produktionsförderung von Basisanwendungen konzentrieren. Dazu gehört, dass Sie mit Git und CI vertraut sind. Außerdem führen Sie strukturierte Build- und Deployment-Prozesse ein, die die Qualitäten eines Cloud- und Container-nativen CI/CD-Systems aufweisen.
 
 ### CI/CD
 
-For your application, you will institute structured build and deployment processes that exhibit the qualities of a cloud and container native CI/CD system.
+Für Ihre Anwendung werden Sie strukturierte Build- und Deployment-Prozesse einrichten, die die Qualitäten eines cloud- und container-nativen CI/CD-Systems aufweisen.
 
-### Change Control
+### Änderungskontrolle
 
-Here you develop a fundamental understanding of the workflow from source control management (scm) to deployment and have access to merge/tag commits in scm to trigger deployments.
+Hier entwickeln Sie ein grundlegendes Verständnis des Arbeitsablaufs, von der Versionsverwaltung (scm) bis zur Bereitstellung und haben Zugang zu Merge/Tag Commits in scm, um Deployments zu starten.
 
-### Security
+### Sicherheit
 
-Build security into your CI process including container scanning and configuration scanning.
+Integrieren Sie Sicherheit in Ihren CI-Prozess, einschließlich Container-Scanning und Konfigurations-Scanning.
 
-### Audit and Logs
+### Audit und Logs
 
-Spend time defining log aggregation.
+Nehmen Sie sich Zeit für die Definition der Log-Aggregation.
 
 
 ## <i class="fas fa-edit"></i> Policy
 
-### Policy Overview
-As your services approach production, you have initial policies agreed as standard and these are mostly documented.
+### Überblick über die Richtlinien
 
-### Policy Creation
+Wenn sich Ihre Dienste der Produktion nähern, haben Sie erste Richtlinien als Standard vereinbart, die meist auch dokumentiert sind.
 
-Define initial resource metrics and start collecting data.
+### Erstellung von Richtlinien
+
+Definieren Sie erste Ressourcenmetriken und beginnen Sie mit der Datenerfassung.
 
 ### Compliance
 
-Initial auditing, carried out manually or through simple scripts.
+Erstprüfung, die manuell oder durch einfache Skripte durchgeführt wird.
 
 ## <i class="fas fa-server"></i> Technology
 
-### Technology Overview
+### Technologie-Übersicht
 
-This marks your first step into production. You’ve worked hard to build your foundation in Level 1, and now you are moving to production. You might have started with something relatively small and simple, but this leap to production has certainly required you to address some significant steps. You’ll probably have had to incorporate monitoring and observability into your workloads. You’ll have brought key observability tooling in and started monitoring your clusters for standard metrics such as RAM, CPU etc. While you might be starting to evaluate application tracing, don’t worry about it too much if you have started to gather core metrics. Your focus here is on getting an application running in production and having enough platform resource, observability and operational capability to support it within your organization.
+Dies ist Ihr erster Schritt in die Produktion. Sie haben hart gearbeitet, um Ihre Grundlagen in Stufe 1 zu schaffen, und jetzt gehen Sie in die Produktion über. Vielleicht haben Sie mit etwas relativ Kleinem und Einfachem begonnen, aber dieser Sprung in die Produktion hat Sie sicherlich dazu gezwungen, einige wichtige Schritte zu unternehmen. Wahrscheinlich mussten Sie Monitoring und Überwachung in Ihre Workloads einbauen. Sie haben wichtige Überwachungs-Tools eingeführt und begonnen, Ihre Cluster auf Standardmetriken wie RAM, CPU usw. zu untersuchen. Auch wenn Sie mit der Evaluierung der Nachverfolgung von Anwendungen beginnen, sollten Sie sich nicht zu viele Gedanken darüber machen, wenn Sie damit begonnen haben, Kernmetriken zu sammeln. Ihr Hauptaugenmerk liegt darauf, eine Anwendung in Produktion zu bringen und über ausreichende Plattformressourcen, Überwachungsfunktionen und Betriebskapazitäten zu verfügen, um sie innerhalb Ihres Unternehmens zu nutzen.
 
-### Infrastructure
+### Infrastruktur
 
-Because production is your goal, you’ve built Kubernetes clusters for production with a focus on reliability and security.
+Da Ihr Ziel die Produktion ist, haben Sie Kubernetes-Cluster für die Produktion mit dem Schwerpunkt auf Zuverlässigkeit und Sicherheit aufgebaut.
 
 ### Container and Runtime Management
 
-You’re working in production now. You will experiment with tooling to augment the basics in production to help with security, policy management, workload misconfigurations, resource requests and limits. Key security practices for container hygiene are being incorporated.
+Sie arbeiten jetzt in der Produktion. Sie werden mit Werkzeugen experimentieren, um die Grundlagen in der Produktion zu erweitern, um bei Sicherheit, Richtlinien-Management, Workload-Fehlkonfigurationen, Ressourcen-Anforderungen und -Limitierungen zu helfen. Die wichtigsten Sicherheitspraktiken für die Container-Hygiene werden integriert.
 
-### Application Patterns and Refactoring
+### Anwendungsmuster und Refactoring
 
-You're in production, with your first APIs exposed. Consider developing a “microservices first” framework particularly if your first choice is always a microservices approach. If not, consider moving applications suitable for lift and shift or don't migrate the app until later.
+Sie sind in Produktion und haben Ihre ersten APIs offengelegt. Ziehen Sie die Entwicklung eines "microservices first"-Frameworks in Betracht, insbesondere wenn Ihre erste Wahl immer ein microservices-Ansatz ist. Wenn dies nicht der Fall ist, ziehen Sie Anwendungen in Betracht, die für Lift and Shift geeignet sind, oder migrieren Sie die Anwendung erst später.
 
-### Application Release and Operations
+### Anwendungsfreigabe und Betrieb
 
-For your initial steps into production, you’ll be using CI or release tooling, kubectl and kustomize to potentially deploy your first smaller applications. It’s really important by now that you develop key skills in Kubernetes configuration.
+Für Ihre ersten Schritte in die Produktion werden Sie CI- oder Release-Tools, kubectl und kustomize verwenden, um möglicherweise Ihre ersten kleineren Anwendungen zu deployen. Jetzt ist es wirklich wichtig, dass Sie grundlegende Fähigkeiten in der Kubernetes-Konfiguration entwickeln.
 
-### Security and Policy
+### Sicherheit und Policy
 
-Ensure that your development and operations groups are following good practice with containers, secrets and security. Because you are in production, you will want to ensure that you have encryption as well and authentication and authorization addressed.
+Stellen Sie sicher, dass Ihre Entwicklungs- und Betriebsgruppen sich an gute Praktiken für Container, Geheimnisse und Sicherheit halten. Da Sie in der Produktion tätig sind, sollten Sie sicherstellen, dass Sie auch die Verschlüsselung sowie die Authentifizierung und Autorisierung im Griff haben.
 
-### Testing and Issue Detection
+### Testen und Erkennen von Fehlern
 
-Now that you are in production, you’ll be experimenting with tooling to help with security, policy management, workload misconfigurations, resource requests, limits and observability, in your staging or development environment.
+Jetzt, wo Sie in der Produktion sind, werden Sie mit Werkzeugen experimentieren, die Ihnen bei der Sicherheit, Richtlinienverwaltung, Fehlkonfigurationen der Arbeitslast, Ressourcenanforderungen, Grenzen und Beobachtbarkeit in Ihrer Staging- oder Entwicklungsumgebung helfen.
 
-## <i class="fas fa-building"></i> Business Outcomes
+## <i class="fas fa-building"></i> Wirtschaftliche Ergebnisse
 
-Cloud native is now established and your technologists are moving to production. While the technical outcome of Level 2 is a fully functional application or group of applications migrated to cloud native tools and practices, the business outcomes are the ability to evaluate the benefits of the migrations. This is also the level that most customers/corporations get to and plateau. This is when a cloud native maturity model shows its true value.
+Cloud Native ist nun etabliert und Ihre Technologen gehen in die Produktion über. Während das technische Ergebnis von Stufe 2 eine voll funktionsfähige Anwendung oder Gruppe von Anwendungen ist, die auf Cloud Native-Tools und -Praktiken migriert wurden, sind die Geschäftsergebnisse die Fähigkeit, die Vorteile der Migrationen zu bewerten. Dies ist auch die Stufe, die die meisten Kunden/Unternehmen erreichen und auf der sie stehen bleiben. Hier zeigt ein Cloud Native Reifegradmodell seinen wahren Wert.
 
-With your established KPIs from Level 1, you will measure success and communicate this to stakeholders.
+Anhand der in Stufe 1 festgelegten KPIs messen Sie den Erfolg und teilen ihn den Stakeholdern mit.
 
-In the operation phase, you will be focused on moving to production. You’ll have established standards around technology, your people will be operating it and implementing policy and process. Your business outcome will be around production migration. The business leadership of your organization will want to understand what applications are being moved and why. Be able to clearly communicate the plans to your business leaders. Repeatable patterns will also emerge as teams operate in Level 2. These will be applied to your business outcomes so that benefits you see in one migrated application can be applied to another without as much as a heavy lift. These patterns will help streamline operations across your dev, sec and ops teams.
+In der Betriebsphase konzentrieren Sie sich auf den Übergang zur Produktion. Sie werden Standards für die Technologie festgelegt haben, Ihre Mitarbeiter werden sie bedienen und Richtlinien und Verfahren einführen. Ihr Geschäftsergebnis wird sich um die Produktionsmigration drehen. Die Geschäftsleitung Ihres Unternehmens wird verstehen wollen, welche Anwendungen verschoben werden und warum. Sie müssen in der Lage sein, Ihren Geschäftsführern die Pläne klar zu vermitteln. Bei der Arbeit der Teams in Stufe 2 werden sich auch wiederholbare Muster herausbilden. Diese werden auf Ihre Geschäftsergebnisse angewandt, so dass die Vorteile, die Sie bei einer migrierten Anwendung sehen, ohne großen Aufwand auf eine andere Anwendung übertragen werden können. Diese Muster werden dazu beitragen, die Abläufe in Ihren Entwicklungs-, Sicherheits- und Betriebsteams zu optimieren.
 
-Your KPIs can also include your return on investment ROI, but know that in Level 2, your ROI will be lower than when you reach Level 5. This is because you are investing a lot in acquiring tools, establishing the right team and skill set, whereas in Level 5 you are optimizing.
+Zu Ihren KPIs kann auch Ihre Kapitalrendite (ROI) gehören, aber Sie sollten sich darüber im Klaren sein, dass Ihre ROI in Stufe 2 niedriger sein wird als in Stufe 5. Das liegt daran, dass Sie viel in den Erwerb von Werkzeugen, den Aufbau des richtigen Teams und der richtigen Fähigkeiten investieren, während Sie in Stufe 5 optimieren.
