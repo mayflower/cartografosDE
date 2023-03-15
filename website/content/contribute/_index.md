@@ -1,6 +1,6 @@
 ---
 title: Wie Sie partizipieren können
-linkTitle: "partizipieren"
+linkTitle: "Beitragen"
 toc_hide: true
 menu:
   main:
@@ -53,7 +53,7 @@ Am besten erreichen Sie uns:
 - Unser CNCF Slack-Kanal - # cartografos-wg
 - Und natürlich persönlich bei einem Treffen
 
-## Contribution Flow
+## Arbeitsablauf für Beitragen
 
 Ein Überblick über den Arbeitsablauf eines Mitwirkenden:
 
@@ -72,13 +72,13 @@ Bevor Sie den PR öffnen, vergewissern Sie sich, dass Sie auf dem neuesten Stand
 Wenn vor der Zusammenführung Ihres PR andere Commits in den Upstream gepusht werden, müssen Sie ebenfalls einen Re-Base durchführen, bevor der PR zusammengeführt wird.
 Allgemeine Hinweise zum Einreichen eines Pull-Requests finden Sie unter [Creating a pull request] (https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) auf GitHub.
 
-## Contributor Ladder
+## Beitrags "Leiter"
 
-Die Contributor Ladder beschreibt die verschiedenen Rollen der Mitwirkenden innerhalb der Arbeitsgruppe sowie die damit verbundenen Verantwortlichkeiten und Privilegien. Community-Mitglieder beginnen in der Regel auf den ersten Stufen der "Leiter" und steigen mit wachsendem Engagement in der Arbeitsgruppe auf. Die Mitglieder unserer Arbeitsgruppe helfen Ihnen gerne dabei, auf der Leiter der Mitwirkenden aufzusteigen.
+Die Beitrags "Leiter" beschreibt die verschiedenen Rollen der Mitwirkenden innerhalb der Arbeitsgruppe sowie die damit verbundenen Verantwortlichkeiten und Privilegien. Community-Mitglieder beginnen in der Regel auf den ersten Stufen der "Leiter" und steigen mit wachsendem Engagement in der Arbeitsgruppe auf. Die Mitglieder unserer Arbeitsgruppe helfen Ihnen gerne dabei, auf der Leiter der Mitwirkenden aufzusteigen.
 
-### Participant
+### Teilnehmer
 
-Ein Participant engagiert sich für die Gruppe und ihre Gemeinschaft, indem er seine Zeit, seine Gedanken usw. einbringt. Community-Teilnehmer sind in der Regel Benutzer, die nicht mehr anonym sind, sondern sich aktiv an Gruppendiskussionen beteiligen.
+Ein Teilnehmer engagiert sich für die Gruppe und ihre Gemeinschaft, indem er seine Zeit, seine Gedanken usw. einbringt. Community-Teilnehmer sind in der Regel Benutzer, die nicht mehr anonym sind, sondern sich aktiv an Gruppendiskussionen beteiligen.
 
 Verantwortlichkeiten:
 
@@ -92,9 +92,9 @@ Wie Benutzer sich in der Gemeinschaft engagieren können:
 - Feedback zu neuen Artefakt-Releases geben
 - Teilnahme an Community-Veranstaltungen
 
-### Contributor
+### Beitragender
 
-Ein Contributor einer Arbeitsgruppe trägt direkt zur Gruppe bei und schafft einen Mehrwert für diese. Personen auf der Stufe "Contributor" können neue Mitarbeiter sein oder nur gelegentlich Beiträge leisten.
+Ein Beitragender einer Arbeitsgruppe trägt direkt zur Gruppe bei und schafft einen Mehrwert für diese. Personen auf der Stufe "Beitragender" können neue Mitarbeiter sein oder nur gelegentlich Beiträge leisten.
 
 Zu den Verantwortlichkeiten gehören:
 
@@ -112,22 +112,22 @@ Zu den Verantwortlichkeiten gehören:
 - Werbung für die Arbeitsgruppe in der Öffentlichkeit
 - Unterstützung bei der Verwaltung der Infrastruktur der Arbeitsgruppe
 
-### Reviewer
+### Rezensent
 
-Ein Reviewer hat die Verantwortung für bestimmte Assets, Dokumentationen oder andere Arbeitsgruppenbereiche. Sie sind gemeinsam mit anderen Reviewern für die Überprüfung aller Änderungen in diesen Bereichen verantwortlich und geben an, ob diese Änderungen für einen Merge bereit sind. Sie haben eine Erfolgsbilanz von Beiträgen und Überprüfungen in der Arbeitsgruppe.
+Ein Rezensent hat die Verantwortung für bestimmte Assets, Dokumentationen oder andere Arbeitsgruppenbereiche. Sie sind gemeinsam mit anderen Reviewern für die Überprüfung aller Änderungen in diesen Bereichen verantwortlich und geben an, ob diese Änderungen für einen Merge bereit sind. Sie haben eine Erfolgsbilanz von Beiträgen und Überprüfungen in der Arbeitsgruppe.
 
-Reviewer sind für einen "spezifischen Bereich" verantwortlich. Das kann ein bestimmtes Artefakt, ein Kapitel der Dokumentation oder ein anderes klar definiertes Gruppenartefakt sein, das kleiner ist als ein ganzes Repository. Meistens handelt es sich um ein oder mehrere Verzeichnisse in einem oder mehreren Git-Repositories. Der unten stehende "spezifische Bereich" bezieht sich auf diesen Verantwortungsbereich.
+Rezensent sind für einen "spezifischen Bereich" verantwortlich. Das kann ein bestimmtes Artefakt, ein Kapitel der Dokumentation oder ein anderes klar definiertes Gruppenartefakt sein, das kleiner ist als ein ganzes Repository. Meistens handelt es sich um ein oder mehrere Verzeichnisse in einem oder mehreren Git-Repositories. Der unten stehende "spezifische Bereich" bezieht sich auf diesen Verantwortungsbereich.
 
 Prüfer haben alle Rechte und Pflichten eines Mitwirkenden und darüber hinaus:
 
 - Zu den Verantwortlichkeiten gehören:
 - Einhalten des Reviewing-Leitfadens
 - Überprüfung der meisten Pull Requests anhand ihrer spezifischen Verantwortungsbereiche
-- Andere Contributoren dabei unterstützen, Reviewer zu werden
+- Andere Beitragende dabei unterstützen, Rezensent zu werden
 
 Voraussetzungen:
 
-- Erfahrung als Contributor
+- Erfahrung als Beitragender
 - Ist ein Arbeitsgruppenmitglied
 - Hat tiefgreifende Kenntnisse in seinem spezifischen Bereich bewiesen. Idealerweise hat er das Artefakt in seinem spezifischen Bereich verfasst oder wesentlich dazu beigetragen.
 - Verpflichtet sich, für diesen speziellen Bereich verantwortlich zu sein
@@ -136,8 +136,8 @@ Voraussetzungen:
 Zusätzliche Privilegien:
 
 - Freigabe von Pull Requests in bestimmten Verzeichnissen
-- Kann andere Mitwirkende empfehlen und prüfen, Reviewer zu werden
-Der Prozess, ein Reviewer zu werden, ist folgender:
+- Kann andere Mitwirkende empfehlen und prüfen, Rezensent zu werden
+Der Prozess, ein Rezensent zu werden, ist folgender:
 
 - Der Mitwirkende wird nominiert, indem er einen PR gegen das entsprechende Repository eröffnet, wodurch sein GitHub-Benutzername der OWNERS-Datei für ein oder mehrere Verzeichnisse hinzugefügt wird.
 - Mindestens zwei Mitglieder des Teams, dem das Repository oder das Hauptverzeichnis gehört, die bereits Approver sind, genehmigen den PR.
@@ -146,10 +146,10 @@ Der Prozess, ein Reviewer zu werden, ist folgender:
 
 Maintainer sind sehr erfahrene Mitwirkende, die für die gesamte Arbeitsgruppe verantwortlich sind. Als solche haben sie die Möglichkeit, PRs für jeden Bereich des Repositorys zu genehmigen, und es wird von ihnen erwartet, dass sie sich an Entscheidungen über die Strategie und die Prioritäten der Arbeitsgruppe beteiligen.
 
-Ein Maintainer muss die Aufgaben und Anforderungen eines Reviewers erfüllen, plus:
+Ein Maintainer muss die Aufgaben und Anforderungen eines Rezensenten erfüllen, plus:
 Zu den Verantwortlichkeiten gehören:
 
-- Mentoring neuer Reviewer
+- Mentoring neuer Rezensent
 - Schreiben von Refactoring-PRs
 - Teilnahme an den Aktivitäten der CNCF Maintainer
 - Strategie und Politik für die Arbeitsgruppe festlegen
@@ -171,7 +171,7 @@ Zusätzliche Privilegien:
 
 Verfahren, um Maintainer zu werden:
 
-- Jeder aktuelle Maintainer kann einen aktuellen Reviewer nominieren, neuer Maintainer zu werden, indem er einen PR gegen das Stammverzeichnis des cncf/cartografos-Repository eröffnet und den Nominierten als Approver in der OWNERS-Datei hinzufügt.
+- Jeder aktuelle Maintainer kann einen aktuellen Rezensent nominieren, neuer Maintainer zu werden, indem er einen PR gegen das Stammverzeichnis des cncf/cartografos-Repository eröffnet und den Nominierten als Approver in der OWNERS-Datei hinzufügt.
 - Der Kandidat fügt dem PR einen Kommentar hinzu, in dem er bestätigt, dass er mit allen Anforderungen an einen Maintainer einverstanden ist.
 - Eine Mehrheit der derzeitigen Maintainer muss dann den PR genehmigen.
 
