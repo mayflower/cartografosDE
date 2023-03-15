@@ -1,124 +1,124 @@
 ---
-title: Level 3 - Scale
-description: Your competency is growing and you are defining processes for scale.
+title: Level 3 - Skalierung
+description: Ihre Kompetenz wächst, und Sie definieren Prozesse für die Skalierung.
 ---
 
-## <i class="fas fa-users"></i> People 
+## <i class="fas fa-users"></i> Personen
 
-### People Overview
+### Personenübersicht
 
-The team’s competency is growing and there is commitment from Dev, Ops and security. You are formalizing expertise around a cloud native center of excellence. Cloud Native becomes a first-class citizen for strategy.
+Die Kompetenz des Teams wächst und es gibt ein Engagement in Entwicklung, Betrieb und Sicherheit. Sie formalisieren Expertise rund um ein cloudbasiertes Kompetenzzentrum. Cloud Native wird zu einem erstklassigen Akteur in der Strategie.
 
-### Organizational Change
+### Organisatorischer Wandel
 
-As your people’s competency grows, the organization structure is now in place to support best practices. You will have formalized responsibilities. A common pattern used for this structure often embraces agile and scrum.
+Mit wachsender Kompetenz Ihrer Mitarbeiter ist nun eine Organisationsstruktur vorhanden, die Best Practices unterstützt. Sie werden formalisierte Verantwortlichkeiten haben. Ein häufig verwendetes Pattern für diese Struktur beruht auf Agilität und Scrum.
 
-### Teams and Decentralization
+### Teams und Dezentralisierung
 
-You’re really starting to see a high degree of centralisation, with clear and understood responsibilities. There may however be a decrease in velocity and chokepoints in the process. Things may start to slow down.
+Sie sehen jetzt eine hohe Zentralisierung mit klaren und verstandenen Verantwortlichkeiten. Es kann jedoch zu einem Geschwindigkeitsrückgang und zu Engpässen im Prozess kommen. Die Dinge könnten langsamer werden.
 
-### Security
+### Sicherheit
 
-Your risk tolerance will impact at what level you are focused on cloud native security training so you are actively skilling people.
+Ihre Risikotoleranz wird sich darauf auswirken, auf welchem Level Sie sich auf Cloud-Native-Security Trainings konzentrieren, damit Sie Ihre Mitarbeiter aktiv schulen.
 
-### Developer Agility
+### Agilität der Entwickler
 
-Your people have implemented continuous delivery for all environments, including for complex releases and with built-in compliance testing. The ops team is now integrated into cross-functional teams, though individuals may not necessarily be able to do all functions.
+Ihre Mitarbeiter haben Continuous Delivery für alle Umgebungen implementiert, auch für komplexe Releases und mit integrierten Compliance-Tests. Das Ops-Team ist jetzt in funktionsübergreifende Teams eingebunden, auch wenn die einzelnen Mitarbeiter nicht unbedingt alle Funktionen übernehmen können.
 
-### Upskilling Developers
+### Fortbildung von Entwicklern
 
-Implement a repeatable cycle of troubleshooting so changes and iterations are done quickly.
+Implementieren Sie einen wiederholbaren Fehlerbehebungszyklus, damit Änderungen und Iterationen schnell durchgeführt werden können.
 
 ### CNCF Certifications
 
-Organizations may wish to consider the CKA and CKAD exams around level 2 and 3.
+Organisationen sollten die CKA- und CKAD-Prüfungen auf Level 2 und 3 in Betracht ziehen.
 
 #### Certified Kubernetes Administrator (CKA)
 
-This program provides assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators.
+Dieses Programm stellt sicher, dass CKAs über die Fähigkeiten, das Wissen und die Kompetenz verfügen, um die Aufgaben von Kubernetes-Administratoren zu erfüllen.
 
 #### Certified Kubernetes Application Developer (CKAD)
 
-This exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.
+Diese Prüfung bescheinigt, dass Benutzer Cloud-Native-Anwendungen für Kubernetes entwerfen, erstellen, konfigurieren und bereitstellen können.
 
-## <i class="fas fa-cogs"></i> Process
+## <i class="fas fa-cogs"></i> Prozess
 
-### Process Overview
+### Prozess Übersicht
 
-You will implement standardization across the organization with the benefit of improving onboarding and expanding your cloud native footprint and awareness. You will create a feedback loop. You will invest in repeatability. Do you have the tools in place that are accessible to everyone? Do you have Git services? Have you implemented workspace collaboration to save time, labor or avoid duplication? Finally, what is your process for measuring resource usage? In level three, you should be measuring your container usage, CPU and memory (runtime and uptime). Automation and processes associated with software release will also be extended to platforms. Lifecycle operations such as upgrades and patching, particularly CVEs and critical updates will benefit from further automation and the introduction of Infrastructure-as-code technologies.
+Sie implementieren eine Standardisierung im gesamten Unternehmen, um das Onboarding zu verbessern und Ihren Cloud Native Footprint und Awareness zu erweitern. Sie werden eine Feedbackschleife erstellen. Sie werden in Wiederholbarkeit investieren. Verfügen Sie über Tools, die für alle zugänglich sind? Verfügen Sie über Git-Services? Haben Sie die Zusammenarbeit im Arbeitsbereich eingeführt, um Zeit und Arbeit zu sparen oder Doppelarbeit zu vermeiden? Wie sieht Ihr Verfahren zur Messung der Ressourcennutzung aus? Auf Level 3 sollten Sie die Nutzung von Containern, CPU und Speicher (Laufzeit und Betriebszeit) messen. Die Automatisierung und die mit der Softwarefreigabe verbundenen Prozesse werden auch auf Plattformen ausgedehnt. Lebenszyklusvorgänge wie Upgrades und Patches, insbesondere CVEs und kritische Updates, werden von einer weiteren Automatisierung und der Einführung von Infrastructure-as-code-Technologien profitieren.
 
 ### CI/CD
 
-You are implementing a center of excellence around your CI/CD process.
+Sie implementieren ein Kompetenzzentrum für Ihren CI/CD-Prozess.
 
-### Change Control
+### Änderung der Kontrolle
 
-Your code quality is improving as measured with automated tooling and you are seeing CI and test success frequently.
+Ihre Codequalität, gemessen mit automatisierten Werkzeugen, verbessert sich und Sie sehen häufig CI- und Testerfolge.
 
-### Security
+### Sicherheit
 
-Implement automatic continuous scanning to flag misconfigurations or security issues.
+Implementieren Sie eine automatische, kontinuierliche Überprüfung, um Fehlkonfigurationen oder Sicherheitsprobleme zu erkennen.
 
-### Audit and Logs
+### Audit und Logs
 
-Start to audit and implement initial alerts. Filter noise.
+Beginnen Sie mit der Prüfung und Umsetzung erster Warnmeldungen. Filtern Sie Rauschen.
 
 ## <i class="fas fa-edit"></i> Policy
 
-### Policy Overview
+### Policy überblick
 
-You will implement policy-as-code and build this into your CI pipeline.
+Sie werden policy-as-code implementieren und diese in Ihre CI-Pipeline einbauen.
 
-### Policy Creation
+### Policy Erstellung
 
-Create policies based on metrics refined around security, efficiency and reliability.
+Erstellen Sie Policys auf der Grundlage von Metriken, die auf Sicherheit, Effizienz und Zuverlässigkeit ausgerichtet sind.
 
 ### Compliance
 
-Policy compliance and auditing carried out through automated means on Kubernetes. This will likely include initial development of policy-as-code.
+Die Einhaltung und Prüfung von Policys erfolgt durch automatisierte Mittel in Kubernetes. Dies wird wahrscheinlich die anfängliche Entwicklung von policy-as-code beinhalten.
 
-## <i class="fas fa-server"></i> Technology
+## <i class="fas fa-server"></i> Technologie
 
-### Technology Overview
+### Technologie Überblick
 
-Here you start to scale. Your suite of tools is more standardized. You're getting your release tooling, secrets management and policy tooling in place. You’re also starting to get a level of buy-in across your organization, which is helping to propel you forward. This is where you will be running the largest number of tools as you will be in the thick of evaluating, implementing, and running in production.
+Hier beginnen Sie zu skalieren. Ihre Palette an Werkzeugen ist stärker standardisiert. Sie bauen Ihre Release-Tools, Ihr Geheimhaltungsmanagement und Ihre Policy-Werkzeuge auf. Sie beginnen auch, ein gewisses Maß an Akzeptanz in Ihrem Unternehmen zu erreichen, was Sie weiter voranbringt. In dieser Phase werden Sie die meisten Werkzeuge einsetzen, da Sie sich mitten in der Evaluierung, Implementierung und im Produktionsbetrieb befinden.
 
-### Infrastructure
+### Infrastruktur
 
-As part of building confidence in your cloud infrastructure, you need to gain visibility into what your infrastructure is doing. Developing your monitoring, alerting and resource usage capabilities is going to be your focus. An important consideration here is that where previously you may have considered machine-specific properties such as CPU, RAM etc, you’ll also want to factor in cluster resource metrics also. Additionally, you’ll replace components when they fail rather than spending time remediating issues in production. This builds on Level 2. Furthermore, you may also look to manage infrastructure with Kubernetes like you would software.
+Um das Vertrauen in Ihre Cloud-Infrastruktur zu stärken, müssen Sie einen Überblick über die Aktivitäten Ihrer Infrastruktur gewinnen. Die Entwicklung Ihrer Überwachungs-, Warn- und Ressourcennutzungsfunktionen wird Ihr Schwerpunkt sein. Eine wichtige Überlegung dabei ist, dass Sie nicht nur maschinenspezifische Eigenschaften wie CPU, RAM usw. berücksichtigen, sondern auch Cluster-Ressourcenmetriken einbeziehen sollten. Außerdem werden Sie Komponenten ersetzen, wenn sie ausfallen, anstatt Zeit damit zu verbringen, Probleme in der Produktion zu beheben. Dies baut auf Level 2 auf. Außerdem können Sie die Infrastruktur mit Kubernetes wie eine Software verwalten.
 
-### Container and Runtime Management
+### Container- und Laufzeitmanagement
 
-Whereas in Level 2 you’ve been experimenting, in Level 3, as you increase your workload, and as you scale, you need consistent tooling across clusters to gain continuous visibility into your Kubernetes clusters. This should include automatic scanning and having runtime observability of what is occurring within your containers and your cluster. CNCF projects are good options here. You will have alerting and dashboards in place.
+Während Sie in Level 2 noch experimentiert haben, benötigen Sie in Level 3 mit zunehmender Arbeitslast und Skalierung konsistente Werkzeuge für alle Cluster, um eine kontinuierliche Sichtbarkeit Ihrer Kubernetes-Cluster zu erhalten. Dies sollte automatisches Scannen und die Möglichkeit zur Laufzeitbeobachtung der Vorgänge in Ihren Containern und Ihrem Cluster beinhalten. CNCF-Projekte sind hier eine gute Option. Sie werden über Warnmeldungen und Dashboards verfügen.
 
-### Application Patterns and Refactoring
+### Anwendungsmuster und Refactoring
 
-Culturally, your organization has started to think about services rather than “servers”. Microservices are embraced within the organization and are now used by default where appropriate.
+Kulturell hat Ihr Unternehmen begonnen, über Dienste und nicht über "Server" nachzudenken. Microservices werden in der Organisation angenommen und werden nun standardmäßig verwendet, wo es angebracht ist.
 
-### Application Release and Operations
+### Anwendungsrelease und Betrieb
 
-Because consistency is important, you may be starting to write Helm Charts for your application releases. You may also be starting to take your first steps into GitOps with Flux and Argo, introducing controllers to manage your release and operations.
+Da Konsistenz wichtig ist, beginnen Sie vielleicht damit, Helm Charts für Ihre Anwendungsreleases zu schreiben. Vielleicht machen Sie auch Ihre ersten Schritte in Richtung GitOps mit Flux und Argo, indem Sie Controller zur Verwaltung Ihrer Releases und Operationen einführen.
 
-### Security and Policy
+### Sicherheit und Policy
 
-It’s now time to step up and automate your deployment guardrails and security best practices with policy as code. Determine your strategy for enforcement. Begin adopting third party benchmarks and standards where relevant. Consider also adopting anomaly and threat detection technologies.
+Es ist nun an der Zeit, die Leitplanken für die Bereitstellung und die bewährten Sicherheitsverfahren mit Policy as Code zu automatisieren. Legen Sie Ihre Strategie für die Durchsetzung fest. Beginnen Sie mit der Übernahme von Benchmarks und Standards von Drittanbietern, sofern diese relevant sind. Erwägen Sie auch den Einsatz von Technologien zur Erkennung von Anomalien und Bedrohungen.
 
-### Testing and Issue Detection
+### Testen und Erkennen von Problemen
 
-On the basis of your experiments in the previous level, you’ll be implementing this in production, and including good alerting and good dashboards, building out your observability capabilities.
+Auf der Grundlage Ihrer Experimente in den vorherigen Leveln werden Sie dies in der Produktion implementieren und gute Warnmeldungen und Dashboards einbeziehen, um Ihre Beobachtungsfähigkeiten auszubauen.
 
-## <i class="fas fa-building"></i> Business Outcomes
+## <i class="fas fa-building"></i> Unternehmerische Ergebnisse
 
-In Level 3, your competency is growing and you are scaling. Up to this point, your teams have been focusing on learning cloud native. In this stage, your business outcomes are dependent on your team’s experience. As the team builds confidence, their competency around security, efficiency and reliability grows and they will implement defined processes for scale. All of these will impact your services and applications as the team improves. Your business should start to notice operations are more scalable and if not you will need to improve lines of communication to demonstrate this scale, or review the actual scaling results, so they can be optimized further.
+In Level 3 wächst Ihre Kompetenz und Sie skalieren. Bis zu diesem Punkt haben sich Ihre Teams auf das Erlernen von Cloud Native konzentriert. In dieser Phase sind Ihre unternehmerischen Ergebnisse von der Erfahrung Ihres Teams abhängig. In dem Maße, wie das Team Vertrauen aufbaut, wächst seine Kompetenz in Bezug auf Sicherheit, Effizienz und Zuverlässigkeit, und es wird definierte Prozesse für die Skalierung implementieren. All dies wird sich auf Ihre Dienste und Anwendungen auswirken, wenn sich das Team verbessert. Wenn dies nicht der Fall ist, müssen Sie die Kommunikation verbessern, um diese Skalierung zu demonstrieren, oder die tatsächlichen Skalierungsergebnisse überprüfen, damit sie weiter optimiert werden können.
 
-You will have safeguarded your application or service from a single point of failure or disappointing performance in Level 3.
+In Level 3 haben Sie Ihre Anwendung oder Ihren Dienst vor einem single point of failure oder einer enttäuschenden Leistung bewahrt.
 
-Monitoring is implemented. This will help the business get reports on what’s working and what isn't working. While the monitoring may be very specific, it will also provide insights into resource utilization to control costs and performance to ensure availability.
+Die Überwachung ist implementiert. Dies wird dem Unternehmen helfen, Berichte darüber zu erhalten, was funktioniert und was nicht. Die Überwachung kann zwar sehr spezifisch sein, bietet aber auch Einblicke in die Ressourcennutzung zur Kostenkontrolle und in die Leistung zur Sicherstellung der Verfügbarkeit.
 
-Finally, you should be observing the flexibility and scalability of cloud native by comparing old vs. new:
+Schließlich sollten Sie die Flexibilität und Skalierbarkeit von Cloud Native durch den Vergleich von alt und neu beobachten:
 
-- Deploying a server takes minutes with Infrastructure as Code instead of days. Business translation: faster time to market.
-- Monitoring for security attacks. Business translation: less risk, stolen data.
-- Observability: Logging, metrics and tracing. Business translation: quicker responsiveness to changes in application behavior or business demand. Better customer experience and reduction in lost sales due to service degradation.
-- Improved Reusability: containers and microservices make it easier to reuse components already available from previous projects. Business translation: 1. guarantee of brand image consistency and standardized functionalities throughout the multiple apps; 2. a lower learning curve for customers using those apps.
+- Die Bereitstellung eines Servers dauert mit Infrastructure as Code Minuten statt Tage. Die Business-Übersetzung: kürzere Markteinführungszeit.
+- Überwachung auf Sicherheitsangriffe. Business-Übersetzung: weniger Risiko, gestohlene Daten.
+- Beobachtbarkeit: Protokollierung, Metriken und Rückverfolgung. Business-Übersetzung: Schnellere Reaktionsfähigkeit auf Änderungen im Anwendungsverhalten oder in der Geschäftsnachfrage. Bessere Kundenerfahrung und weniger Umsatzeinbußen aufgrund von Serviceverschlechterungen.
+- Verbesserte Wiederverwendbarkeit: Container und Microservices erleichtern die Wiederverwendung bereits vorhandener Komponenten aus früheren Projekten. Business-Übersetzung: 1. Gewährleistung eines konsistenten Markenimages und standardisierter Funktionalitäten in den verschiedenen Anwendungen; 2. eine niedrigere Lernkurve für Kunden, die diese Anwendungen nutzen.
 
