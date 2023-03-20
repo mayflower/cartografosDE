@@ -15,6 +15,10 @@ provider "aws" {
 
 resource "aws_s3_bucket" "cncf-terraform-state" {
   bucket = "cncf-mf-terraform-state"
+  tags = {
+    project = "cncf-mf-terraform-states",
+    repository = "https://github.com/mayflower/cartografosDE/tree/s3-deployment/terraform/state_setup"
+  }
 }
 
 resource "aws_s3_bucket_acl" "cncf-terraform-state-acl" {
@@ -29,5 +33,9 @@ resource "aws_dynamodb_table" "my-terraform-lock" {
   attribute {
     name = "LockID"
     type = "S"
+  }
+  tags = {
+    project = "cncf-terraform-lock-table",
+    repository = "https://github.com/mayflower/cartografosDE/tree/s3-deployment/terraform/state_setup"
   }
 }

@@ -20,10 +20,13 @@ resource "aws_cloudfront_distribution" "maturitymodel_aws_cdn" {
 
   origin {
     origin_id = "origin-bucket-${aws_s3_bucket.maturitymodel_website.id}"
-    domain_name = aws_s3_bucket.maturitymodel_website.bucket_regional_domain_name
+    domain_name = aws_s3_bucket_website_configuration.maturitymodel_website_configuration.website_endpoint
 
-    s3_origin_config {
-      origin_access_identity = aws_cloudfront_origin_access_identity.maturitymodel_origin_access_identity.cloudfront_access_identity_path 
+    custom_origin_config {
+      http_port = "80"
+      https_port = "443"
+      origin_protocol_policy = "http-only"
+      origin_ssl_protocols = [ "TLSv1.2" ]
     }
   }
 
@@ -38,6 +41,7 @@ resource "aws_cloudfront_distribution" "maturitymodel_aws_cdn" {
 #    minimum_protocol_version = "TLSv1.2_2018"
 #  }
 
+  is_ipv6_enabled = true
   default_root_object = "index.html"
 
   default_cache_behavior {
@@ -62,5 +66,10 @@ resource "aws_cloudfront_distribution" "maturitymodel_aws_cdn" {
     geo_restriction {
       restriction_type = "none"
     }
+  }
+
+  tags = {
+    project = "cncf-maturitymodel",
+    repository = "https://github.com/mayflower/cartografosDE"
   }
 }

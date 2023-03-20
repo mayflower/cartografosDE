@@ -2,6 +2,7 @@ resource "aws_route53_zone" "mf_cncf_zone" {
   name = var.route53_zone
   tags = {
     project = "cncf"
+    repository = "https://github.com/mayflower/cartografosDE"
   }
 }
 
