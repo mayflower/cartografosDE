@@ -23,28 +23,26 @@ jobs:
           hugo-version: "0.111.3"
           extended: true
       
+      - name: Install node modules
+        working-directory: website
+        run: npm install
+
       - name: Build
-        run: |
-          (cd website
-          npm install
-          hugo --minify --gc)
+        working-directory: website
+        run: hugo --minify --gc
       
       - name: prepare terraform
         uses: hashicorp/setup-terraform@v2
 
-      - run: |
-          cd terraform
-          terraform init
+      - name: init terraform
+        working-directory: terraform
+        run: terraform init
 
       - id: plan
-        run: |
-          cd terraform
-          terraform plan -no-color
+        name: plan terraform
+        working-directory: terraform
+        run: terraform plan -no-color
 
-      - run: echo ${{ steps.plan.outputs.stdout }}
-      - run: echo ${{ steps.plan.outputs.stderr }}
-      - run: echo ${{ steps.plan.outputs.exitcode }}
-
-      - run: |
-          cd terraform
-          terraform apply --auto-approve
+      - name: deploy with terraform
+        working-directory: terraform
+        run: terraform apply --auto-approve

@@ -1,15 +1,27 @@
 
-#resource "aws_route53_record" "cartografos_cloudfront_record" {
-#  zone_id = aws_route53_zone.mf_zone.zone_id
-#  name    = "${var.route53_domain}.${var.route53_zone}"
-#  type    = "A"
+resource "aws_route53_record" "maturitymodel_cloudfront_record" {
+  zone_id = aws_route53_zone.mf_cncf_zone.zone_id
+  name    = "${var.route53_domain}.${var.route53_zone}"
+  type    = "A"
 
-#  alias {
-#    name = aws_cloudfront_distribution.cartografos_aws_cdn.domain_name
-#    zone_id = aws_cloudfront_distribution.cartografos_aws_cdn.hosted_zone_id
-#    evaluate_target_health = false
-#  }
-#}
+  alias {
+    name = aws_cloudfront_distribution.maturitymodel_aws_cdn.domain_name
+    zone_id = aws_cloudfront_distribution.maturitymodel_aws_cdn.hosted_zone_id
+    evaluate_target_health = false
+  }
+}
+
+resource "aws_route53_record" "maturitymodel_cloudfront_record_v6" {
+  zone_id = aws_route53_zone.mf_cncf_zone.zone_id
+  name    = "${var.route53_domain}.${var.route53_zone}"
+  type    = "AAAA"
+
+  alias {
+    name = aws_cloudfront_distribution.maturitymodel_aws_cdn.domain_name
+    zone_id = aws_cloudfront_distribution.maturitymodel_aws_cdn.hosted_zone_id
+    evaluate_target_health = false
+  }
+}
 
 resource "aws_cloudfront_origin_access_identity" "maturitymodel_origin_access_identity" {
     comment = "cloudfront access identity for maturitymodel"
@@ -28,18 +40,20 @@ resource "aws_cloudfront_distribution" "maturitymodel_aws_cdn" {
       origin_protocol_policy = "http-only"
       origin_ssl_protocols = [ "TLSv1.2" ]
     }
+
+    origin_shield {
+      enabled = true
+      origin_shield_region = "eu-central-1"
+    }
   }
+
+  aliases = ["${var.route53_domain}.${var.route53_zone}"]
 
   viewer_certificate {
-    cloudfront_default_certificate = true
+    acm_certificate_arn = aws_acm_certificate.maturitymodel_acm_certificate.arn
+    ssl_support_method = "sni-only"
+    minimum_protocol_version = "TLSv1.2_2018"
   }
-#  aliases = ["${var.route53_domain}.${var.route53_zone}"]
-
-#  viewer_certificate {
-#    acm_certificate_arn = aws_acm_certificate.maturitymodel_acm_certificate.arn
-#    ssl_support_method = "sni-only"
-#    minimum_protocol_version = "TLSv1.2_2018"
-#  }
 
   is_ipv6_enabled = true
   default_root_object = "index.html"
