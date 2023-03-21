@@ -15,7 +15,9 @@
 {{- template "_internal/schema.html" . -}}
 {{- partial "twitter_cards.html" . -}}
 
+{{ if .Site.Params.cookie_banner }}
 <script src="https://cmp.osano.com/16A0DbT9yDNIaQkvZ/c3494b1e-ff3a-436f-978d-842e9a0bed27/osano.js"></script>
+{{ end }}
 
 {{ if hugo.IsProduction }}
 <!-- Google tag (gtag.js) -->
